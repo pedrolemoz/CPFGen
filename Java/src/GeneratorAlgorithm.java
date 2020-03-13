@@ -49,7 +49,7 @@ class Generator{
 	
 	private String buildString(){
 		ArrayList<String> getNumbers = new ArrayList<String>();
-		StringBuilder formattedCPF = new StringBuilder();
+		String formattedCPF = "";
 		
 		for (int i = 0; i < buildCPF.size(); i++){
 			getNumbers.add(Integer.toString(buildCPF.get(i)));
@@ -60,9 +60,9 @@ class Generator{
 		getNumbers.add(11, "-");
 		
 		for (int i = 0; i < getNumbers.size(); i++){
-			formattedCPF.append(getNumbers.get(i));
+			formattedCPF += getNumbers.get(i);
 		}
 		
-		return formattedCPF.toString();
+		return formattedCPF;
 	}
 }
