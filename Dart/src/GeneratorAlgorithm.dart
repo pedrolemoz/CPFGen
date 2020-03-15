@@ -31,9 +31,8 @@ class GeneratorAlgorithm {
   int verifySum(int sum) {
     if ((sum % 11) < 2) {
       return 0;
-    } else {
-      return 11 - (sum % 11);
     }
+    return 11 - (sum % 11);
   }
 
   String buildString(List buildCPF) {

@@ -22,8 +22,7 @@ class GeneratorAlgorithm:
 	def _verify_sum(self, sum):
 		if (sum % 11) < 2:
 			return 0
-		else:
-			return 11 - (sum % 11)
+		return 11 - (sum % 11)
 
 	def _build_string(self):
 		self.CPF = ""
