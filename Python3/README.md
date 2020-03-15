@@ -6,9 +6,16 @@
 Um gerador de CPFs válidos, escrito em Python3, com auxílio da biblioteca PySimpleGUI.
 Escrito por Pedro Lemos numa tarde do dia 12 de Outubro de 2019.
 
-Escrevi uma versão desse projeto em C, que você pode ver [clicando aqui](https://github.com/pedrolemoz/cpfgen-c), e uma versão em Java, que você pode ver [clicando aqui](https://github.com/pedrolemoz/cpfgen-java).
+Veja também outras versões que já escrevi:
+
+- [Versão em Python3](https://github.com/pedrolemoz/cpfgen/tree/master/Python3)
+- [Versão em Java](https://github.com/pedrolemoz/cpfgen/tree/master/Java)
+- [Versão em JavaScript](https://github.com/pedrolemoz/cpfgen/tree/master/JavaScript)
+- [Versão em C](https://github.com/pedrolemoz/cpfgen/tree/master/C)
+- [Versão em Dart](https://github.com/pedrolemoz/cpfgen/tree/master/Dart)
 
 ### Como usar
+
 Instale o Python3. Ele virá com todas as bibliotecas padrão, e o pip. Após isso, abra o prompt de comando no diretório do projeto, e digite:
 
 ```
@@ -23,6 +30,7 @@ O destino padrão do arquivo é o diretório atual.
 Se desejar alterar, poderá clicar no botão procurar, ou especificar o diretório manualmente.
 
 #### Usar sem interface gráfica:
+
 Caso deseje usar o algoritmo em outro projeto, use o arquivo ```GeneratorAlgorithm.py``` e sua classe principal para o seu código.
 ```python3
 from GeneratorAlgorithm import Generator

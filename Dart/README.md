@@ -3,7 +3,13 @@
 Um gerador de CPFs válidos, escrito em Dart.
 Escrito por Pedro Lemos numa noite do dia 20 de Janeiro de 2020.
 
-Escrevi uma versão em Python3, que você pode ver [clicando aqui](https://github.com/pedrolemoz/cpfgen/tree/master/Python3), e uma versão em C, que você pode ver [clicando aqui](https://github.com/pedrolemoz/cpfgen/tree/master/C).
+Veja também outras versões que já escrevi:
+
+- [Versão em Python3](https://github.com/pedrolemoz/cpfgen/tree/master/Python3)
+- [Versão em Java](https://github.com/pedrolemoz/cpfgen/tree/master/Java)
+- [Versão em JavaScript](https://github.com/pedrolemoz/cpfgen/tree/master/JavaScript)
+- [Versão em C](https://github.com/pedrolemoz/cpfgen/tree/master/C)
+- [Versão em Dart](https://github.com/pedrolemoz/cpfgen/tree/master/Dart)
 
 ### Como usar
 
