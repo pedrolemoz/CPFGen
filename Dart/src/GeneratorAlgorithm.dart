@@ -2,26 +2,23 @@ import 'dart:math' show Random;
 
 class GeneratorAlgorithm {
   String generateCPF() {
-    Random random = Random();
-    var buildCPF = [];
+    final Random random = Random();
+    List<int> buildCPF =
+        List<int>.generate(9, (_) => random.nextInt(9), growable: true);
 
-    for (var i = 0; i < 9; i++) {
-      buildCPF.add(random.nextInt(9));
-    }
-
-    for (var i = 0; i < 2; i++) {
+    for (int i = 0; i < 2; i++) {
       buildCPF.add(digit(buildCPF));
     }
 
     return buildString(buildCPF);
   }
 
-  int digit(List buildCPF) {
-    var sum = 0;
-    var index = buildCPF.length + 1;
+  int digit(List<int> buildCPF) {
+    int sum = 0;
+    int index = buildCPF.length + 1;
 
-    for (var i = 0; i < buildCPF.length; i++) {
-      sum += buildCPF[i] * index;
+    for (int i in buildCPF) {
+      sum += i * index;
       index -= 1;
     }
 
@@ -29,28 +26,33 @@ class GeneratorAlgorithm {
   }
 
   int verifySum(int sum) {
-    if ((sum % 11) < 2) {
-      return 0;
-    }
-    return 11 - (sum % 11);
+    return ((sum % 11) < 2) ? 0 : 11 - (sum % 11);
   }
 
-  String buildString(List buildCPF) {
-    var CPF = "";
-    buildCPF.insert(3, ".");
-    buildCPF.insert(7, ".");
-    buildCPF.insert(11, "-");
+  String buildString(List<int> buildCPF) {
+    List<String> getNumbers = [];
+    String formattedCPF = "";
 
-    for (var i = 0; i < buildCPF.length; i++) {
-      CPF += buildCPF[i].toString();
+    for (int i in buildCPF) {
+      getNumbers.add(i.toString());
     }
 
-    return CPF;
+    getNumbers.insert(3, ".");
+    getNumbers.insert(7, ".");
+    getNumbers.insert(11, "-");
+
+    for (String i in getNumbers) {
+      formattedCPF += i;
+    }
+
+    return formattedCPF;
   }
 }
 
 void main() {
-  GeneratorAlgorithm CPF = GeneratorAlgorithm();
-  var generated = CPF.generateCPF();
-  print(generated);
+  GeneratorAlgorithm generator = GeneratorAlgorithm();
+
+  for (int i = 0; i < 100; i++) {
+    print(generator.generateCPF());
+  }
 }
