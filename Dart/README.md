@@ -1,7 +1,7 @@
 # Gerador de CPF em Dart
 
 Um gerador de CPFs válidos, escrito em Dart.
-Escrito por Pedro Lemos numa noite do dia 20 de Janeiro de 2020.
+Escrito por Pedro Lemos numa noite do dia 20 de Janeiro de 2020. Refatorado em uma noite do dia 29 de maio
 
 Veja também outras versões que já escrevi:
 
@@ -9,7 +9,8 @@ Veja também outras versões que já escrevi:
 - [Versão em Java](https://github.com/pedrolemoz/cpfgen/tree/master/Java)
 - [Versão em JavaScript](https://github.com/pedrolemoz/cpfgen/tree/master/JavaScript)
 - [Versão em C](https://github.com/pedrolemoz/cpfgen/tree/master/C)
-- [Versão em Dart](https://github.com/pedrolemoz/cpfgen/tree/master/Dart)
+- [Versão em Kotlin](https://github.com/pedrolemoz/cpfgen/tree/master/Kotlin)
+- [Versão em Swift](https://github.com/pedrolemoz/cpfgen/tree/master/Swift)
 
 ### Como usar
 

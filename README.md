@@ -14,6 +14,8 @@ Escrevi esse projeto para me desafiar no aprendizado de uma nova linguagem. Ao i
 - [Versão em JavaScript](https://github.com/pedrolemoz/cpfgen/tree/master/JavaScript)
 - [Versão em C](https://github.com/pedrolemoz/cpfgen/tree/master/C)
 - [Versão em Dart](https://github.com/pedrolemoz/cpfgen/tree/master/Dart)
+- [Versão em Kotlin](https://github.com/pedrolemoz/cpfgen/tree/master/Kotlin)
+- [Versão em Swift](https://github.com/pedrolemoz/cpfgen/tree/master/Swift)
 
 ### Contribua com este projeto!
 

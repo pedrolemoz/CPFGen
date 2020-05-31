@@ -7,9 +7,10 @@ Veja também outras versões que já escrevi:
 
 - [Versão em Python3](https://github.com/pedrolemoz/cpfgen/tree/master/Python3)
 - [Versão em Java](https://github.com/pedrolemoz/cpfgen/tree/master/Java)
-- [Versão em JavaScript](https://github.com/pedrolemoz/cpfgen/tree/master/JavaScript)
 - [Versão em C](https://github.com/pedrolemoz/cpfgen/tree/master/C)
 - [Versão em Dart](https://github.com/pedrolemoz/cpfgen/tree/master/Dart)
+- [Versão em Kotlin](https://github.com/pedrolemoz/cpfgen/tree/master/Kotlin)
+- [Versão em Swift](https://github.com/pedrolemoz/cpfgen/tree/master/Swift)
 
 ### Como usar
 
