@@ -47,6 +47,23 @@ class GeneratorAlgorithm {
 
     return formattedCPF;
   }
+
+  bool validateCPF(String insertedCPF) {
+    if (insertedCPF.length < 11) {
+      return false;
+    }
+
+    insertedCPF = insertedCPF.replaceAll('.', '');
+    insertedCPF = insertedCPF.replaceAll('-', '');
+
+    List<int> cpf =
+        List<int>.generate(11, (int index) => int.parse(insertedCPF[index]));
+
+    return digit(cpf.sublist(0, 9)) == cpf[9] &&
+            digit(cpf.sublist(0, 10)) == cpf[10]
+        ? true
+        : false;
+  }
 }
 
 void main() {
