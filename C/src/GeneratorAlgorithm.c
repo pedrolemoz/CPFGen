@@ -49,7 +49,7 @@ int verifySum(int sum) {
 }
 
 void buildString(int buildCPF[]) {
-  char cpf[14];
+  char cpf[14] = {0};
 
   for (int i = 0; i < 11; i++) {
     cpf[i] = buildCPF[i] + '0';
