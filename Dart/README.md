@@ -1,7 +1,9 @@
 # Gerador de CPF em Dart
 
 Um gerador de CPFs válidos, escrito em Dart.
-Escrito por Pedro Lemos numa noite do dia 20 de Janeiro de 2020. Refatorado em uma noite do dia 29 de maio.
+Escrito por Pedro Lemos numa noite do dia 20 de Janeiro de 2020.
+Refatorado em uma noite do dia 29 de maio.
+
 Este projeto se tornou uma biblioteca que está disponível no [pub.dev](https://pub.dev/packages/cpf_util), e por isso, é um submódulo dentro deste repositório.
 
 Veja também outras versões que já escrevi:
@@ -15,7 +17,7 @@ Veja também outras versões que já escrevi:
 
 ### Como usar
 
-Instale o SDK do Dart, que você pode obter em [clicando aqui](https://dart.dev/get-dart#install-using-a-setup-wizard). Após isso, basta executar o ```GeneratorAlgorithm.dart```.
+Instale o SDK do Dart, que você pode obter em [clicando aqui](https://dart.dev/get-dart#install-using-a-setup-wizard). Após isso, siga a documentação do pacote para mais detalhes do funcionamento da classe.
 
 Note que o algoritmo gera apenas um CPF. Utilize lógica e outras ferramentas para fazer o que desejar.
 
