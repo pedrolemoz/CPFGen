@@ -17,6 +17,14 @@ Escrevi esse projeto para me desafiar no aprendizado de uma nova linguagem. Ao i
 - [Versão em Kotlin](https://github.com/pedrolemoz/cpfgen/tree/master/Kotlin)
 - [Versão em Swift](https://github.com/pedrolemoz/cpfgen/tree/master/Swift)
 
+
+**Nota**: Este projeto utiliza submodules do git. Para clonar corretamente, siga as instruções a seguir:
+
+```bash
+git clone --recursive https://github.com/pedrolemoz/CPFGen.git
+```
+
+
 ### Contribua com este projeto!
 
 Caso deseje melhorar, adicionar novas funcionalidades ou linguagens, faça um fork do projeto e mande um pull request.
